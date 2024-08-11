@@ -1,0 +1,109 @@
+/* styles.css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.height{
+    position: relative;
+    width: 100%;
+}
+
+
+img{
+    height: 100vh;
+    width: inherit;
+    opacity:55%;
+}
+
+
+.head{
+    position: absolute;
+    top:3%;
+    left:5%;
+    font-size:34px ;
+    font-family: "lucida handwriting",cursive;
+    color:rgb(242, 128, 173);
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.stopwatch {
+    position: absolute;
+    top: 10%;
+    left:50%;
+    height:50%;
+    width: 50%;
+}
+
+
+#time-display {
+    height:60%;
+    width: 60%;
+    margin-left: 1.5%;
+    color: black;
+    text-shadow: 1.5px 1.5px 1.5px rgb(242, 128, 173) ;
+    font-size: 60px;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(236, 176, 192, 0.4);
+    border:4px double rgb(238, 123, 154);
+    border-radius: 100%;
+}
+
+
+.controls button {
+    margin: 3.2%;
+    padding: 23px 23px;
+    cursor: pointer;
+    font-family: "lucida handwriting", cursive;
+    font-size: 23px;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(242, 128, 173) ;
+    background-color: rgba(221, 137, 183, 0.6);
+    border: 4px double  rgb(238,123, 154);
+    border-radius: 100%;
+    float: left;
+}
+
+
+.controls button:hover {
+    background-color: #e98c9c;
+}
+
+
+
+.laps {
+    margin-top: 18%;
+    margin-left:4%;
+    max-height: 200px;
+    max-width: 60%;
+    overflow-y: auto;
+}
+
+
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.laps li {
+    padding: 8px ;
+    background-color: rgba(237, 197, 207, 0.5);
+    color: black;
+    text-shadow: 1px 1px 1px rgb(242, 128, 173) ;
+    border: 4px double  rgb(238,123, 154) ;
+}
+
+
+
+.laps li:hover {
+    background-color: rgba(219, 125, 148, 0.5);
+
+}
